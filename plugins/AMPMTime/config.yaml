@@ -1,0 +1,13 @@
+id: AMPMTime
+key: AMPMTime
+name: AMPMTime
+version: 1.0
+description: This plugin changes the time field in DateTime custom fields from a text input to a dropdown with AM/PM selection
+author_name: Maarten Schenk
+author_link: http://www.movabletips.com
+doc_link: http://www.movabletips.com
+
+callbacks:
+  MT::App::CMS::template_source.date-picker:
+    handler: $AMPMTime::AMPMTime::Transformer::hdlr_template_source_date_picker
+    priority : 11
