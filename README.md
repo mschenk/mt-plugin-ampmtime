@@ -17,4 +17,4 @@ Any DateTime custom field in the MT backend should now show up as three dropdown
 
 Credits
 --------
-This plugin borrows heavily from Dan Wolfgang's HotDate[http://eatdrinksleepmovabletype.com/plugins/hot_date/] plugin.
+This plugin borrows heavily from Dan Wolfgang's HotDate (http://eatdrinksleepmovabletype.com/plugins/hot_date/) plugin.
