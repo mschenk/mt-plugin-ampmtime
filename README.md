@@ -5,7 +5,7 @@ A Movable Type plugin that transforms the time custom field in Movable Type's ba
 Requirements
 ------------
 * Movable Type (Pro version, the plugin works on Custom Fields, a feature lacking from the Open Source version)
-* This plugin has been tested on MT4.x, not on MT5.x.  Theoretically it should work there too though. 
+* This plugin has been tested on MT4.37 and on MT5.2.6.
 
 Installation
 -------------
