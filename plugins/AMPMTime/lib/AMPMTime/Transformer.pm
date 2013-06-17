@@ -3,9 +3,18 @@ use strict;
 
 sub hdlr_template_source_date_picker {
     my ($cb, $app, $tmpl_ref) = @_;
-    my $old = <<'EOF';
+    my $old;
+    if ($MT::VERSION =~ /^4/){;
+    	    $old = <<'EOF';
             <input class="entry-time" name="t_<mt:var name="field_name">" tabindex="11" value="<$mt:var name="time" escape="html"$>" />
 EOF
+    }
+    else {
+    	    $old = <<'EOF';
+            <input type="text" class="entry-time" name="t_<mt:var name="field_name" escape="html">" value="<$mt:var name="time" escape="html"$>" />
+EOF
+}
+   
     $old = quotemeta($old);
     $old =~ s!(\\ )+!\\s+!g;
 

@@ -1,7 +1,7 @@
 id: AMPMTime
 key: AMPMTime
 name: AMPMTime
-version: 1.0
+version: 1.1
 description: This plugin changes the time field in DateTime custom fields from a text input to a dropdown with AM/PM selection
 author_name: Maarten Schenk
 author_link: http://www.movabletips.com
